@@ -4,7 +4,7 @@
 
 using namespace std;
 
-//Pondremos la tabla de puntuaciones
+//Ponemos la tabla de puntuaciones
 
 map <int, string > scores = {
     {0, "Zero"},
@@ -58,7 +58,7 @@ void TennisMatch(string points[], int length){
 }
 int main() {
     string points[] = {"P1", "P1", "P2", "P1", "P2", "P2", "P1", "P1"}; // Secuencia de puntos
-    int length = sizeof(points) / sizeof(points[0]);  // Longitud del array de puntos
+    int length = sizeof(points) / sizeof(points[0]);  // Longitud del array de puntos y desde donde empieza
     
     TennisMatch(points,length);  // Juego
     cout << "Ha ganado: P1 " << endl;
